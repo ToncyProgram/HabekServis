@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Joesfin Sans', sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #191919;
+    width: 100%;
+    height: 14%;
+}
+.slika-saraf-2 {
+    width: 80px;
+    height: 80px;
+    margin: -25px 5px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #29B92B;
+    transition: .4s;
+}
+
+.gumb {
+    background-color: #29B92B;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.gumb:hover {
+    transform: scale(1.2);
+    background-color: white;
+    color: #29B92B;
+}
+
+.logo {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+.slika-note {
+    width: 100px;
+    height: 100px;
+    margin: -25px 0px;
+}
+
+
+
+span {
+    color: #29B92B;
+}
+
+.content {
+    position: absolute;
+    top: -4%;
+    left: 8%;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+    align-items: flex-start;
+    margin: 50% 0%;
+
+}
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+    right: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 300px;
+    background: white;
+    text-align: center;
+    border-spacing: 0;
+    border-radius: 12px 12px 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 12px 5px rgba(32, 32, 32, .5);
+}
+
+th {
+    background: #29B92B;
+    color: #fafafa;
+}
+
+th,
+td {
+    padding: 8px 12px;
+}
+
+tr:nth-child(odd) {
+    background-color: #c1f0b4;
+}
+
+.pocetak {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    padding: 25px 50px;
+    background-color: #101010;
+
+}
+
+.kontakt-box {
+    width: 50%;
+    height: 540px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #191919;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin: 0px 48.5%;
+    
+}
+
+.levo {
+    height: 100%;
+    width: 75%;
+    background: url("../img/zalba.png");
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.desno {
+    padding: 50px 20px;
+    width: 100%;
+    margin: -100px -50px; 
+}
+
+.polje {
+    width: 75%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.polje:hover {
+    background-color: #29B92B;
+}
+
+.pocetak:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.text-polje {
+    width: 100%;
+    height: 20%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: white;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.text-polje:hover {
+    background-color: #29B92B;
+}
+.gumb2 {
+    width: 35%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #29B92B;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+    border-radius: 15px;
+}
+
+.gumb2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: white;
+    color: #29B92B;
+}
+.boja{
+    width: 100%;
+    height: 28%;
+    background-color: #101010;
+}
+.kont {
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.kont:hover{
+    color: #29B92B;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 255px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+  }
+  footer p:nth-child(2){
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-right: 95px;
+  }
+  footer p:nth-child(3){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+  }
+  .kontakt{
+    display: flex;
+  }
+  .slika-saraf{
+    width: 75px;
+    height: 75px;
+    margin: -50px -50px;
+    margin-left: 190px;
+  }
+  .kontakt a{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #29B92B;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .kontakt a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+  }
